@@ -174,6 +174,9 @@ public class SingleWindow extends JFrame
 //            if (e.getKeyCode() == KeyEvent.VK_RIGHT)
 //                surface.currentScene.changeSelectedButton(new Point(1, 0));
 
+        if (currentProject != null)
+            currentProject.HandleKeyEvent(e);
+
         if (e.getKeyCode() == KeyEvent.VK_4)
             AddProject(new TestingProject(projects.size()));
 

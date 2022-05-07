@@ -2,6 +2,7 @@ package com.marcel.Windows.Surfaces;
 import com.marcel.Utils.*;
 
 import java.awt.*;
+import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 
 public class GenericProject
@@ -25,5 +26,7 @@ public class GenericProject
     public void HandleMouseClick(MouseEvent e) {}
     public void HandleMousePress(MouseEvent e) {}
     public void HandleMouseRelease(MouseEvent e) {}
+
+    public void HandleKeyEvent(KeyEvent e) {}
 
 }

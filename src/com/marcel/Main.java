@@ -1,10 +1,7 @@
 package com.marcel;
 
-
 import com.marcel.Windows.SingleWindow;
 import com.marcel.Windows.Surfaces.GenericProject;
-
-import com.marcel.RACF.src.com.marcel.RACF.ConfigFile;
 
 import static com.marcel.Utils.Util.*;
 
@@ -30,14 +27,14 @@ public class Main {
 	{
 		puts("Starting...");
 
-		ConfigFile file = new ConfigFile(getPath("config.racf"));
+		RACF.ConfigFile file = new RACF.ConfigFile(getPath("config.racf"));
 
 		file.DisplayTokens();
 
 		puts("TESTING: " + file.GetConfigValueString("Settings.test"));
 
 
-		List<SingleWindow> windowList = new ArrayList<SingleWindow>();
+		List<SingleWindow> windowList = new ArrayList<>();
 
 		{
 			SingleWindow window = new SingleWindow("Main", 800, 600, windowList);

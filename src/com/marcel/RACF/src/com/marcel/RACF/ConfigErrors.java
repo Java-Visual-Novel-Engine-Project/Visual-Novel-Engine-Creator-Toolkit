@@ -1,4 +1,4 @@
-package com.marcel.RACF;
+package com.marcel.RACF.src.com.marcel.RACF;
 
 public class ConfigErrors {
 

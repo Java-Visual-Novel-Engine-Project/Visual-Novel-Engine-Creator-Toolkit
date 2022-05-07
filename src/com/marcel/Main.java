@@ -4,6 +4,7 @@ import com.marcel.Utils.WindowSize;
 import com.marcel.Windows.SingleWindow;
 import com.marcel.Windows.Surfaces.GenericProject;
 
+import com.marcel.RACF.src.com.marcel.RACF.*;
 
 import static com.marcel.Utils.Util.*;
 
@@ -29,11 +30,11 @@ public class Main {
 	{
 		puts("Starting...");
 
-		//ConfigFile file = new ConfigFile(getPath("config.racf"));
+		ConfigFile file = new ConfigFile(getPath("config.racf"));
 
-		//file.DisplayTokens();
+		file.DisplayTokens();
 
-		//puts("TESTING: " + file.GetConfigValueString("Settings.test"));
+		puts("TESTING: " + file.GetConfigValueString("Settings.test"));
 
 
 		List<SingleWindow> windowList = new ArrayList<SingleWindow>();

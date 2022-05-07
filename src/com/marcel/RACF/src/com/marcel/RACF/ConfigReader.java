@@ -1,4 +1,4 @@
-package com.marcel.RACF;
+package com.marcel.RACF.src.com.marcel.RACF;
 
 import java.io.File;
 import java.io.IOException;
@@ -11,11 +11,11 @@ import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.marcel.RACF.ConfigErrors.*;
+import com.marcel.RACF.src.com.marcel.RACF.ConfigErrors.*;
 
-import static com.marcel.RACF.ConfigTokens.*;
-import static com.marcel.Utils.Util.isInteger;
-import static com.marcel.Utils.Util.puts;
+import static com.marcel.RACF.src.com.marcel.RACF.ConfigTokens.*;
+import static com.marcel.Util.isInteger;
+import static com.marcel.Util.puts;
 
 public class ConfigReader {
 

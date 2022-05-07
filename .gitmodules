@@ -1,6 +1,3 @@
 [submodule "src/com/marcel/RACF/RACF"]
 	path = src/com/marcel/RACF/RACF
 	url = https://github.com/Java-Visual-Novel-Engine-Project/RACF.git
-[submodule "src/com/marcel/RACF/--force"]
-	path = src/com/marcel/RACF/--force
-	url = https://github.com/Java-Visual-Novel-Engine-Project/RACF.git

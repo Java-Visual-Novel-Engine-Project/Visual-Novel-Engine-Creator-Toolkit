@@ -1,11 +1,10 @@
 package com.marcel;
 
 
-import com.marcel.Utils.WindowSize;
 import com.marcel.Windows.SingleWindow;
 import com.marcel.Windows.Surfaces.GenericProject;
 
-import com.marcel.RACF.ConfigFile;
+import com.marcel.RACF.src.com.marcel.RACF.ConfigFile;
 
 import static com.marcel.Utils.Util.*;
 

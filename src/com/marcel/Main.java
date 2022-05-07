@@ -3,6 +3,7 @@ package com.marcel;
 import com.marcel.Windows.SingleWindow;
 import com.marcel.Windows.Surfaces.GenericProject;
 
+
 import static com.marcel.Utils.Util.*;
 
 import java.util.*;
@@ -27,7 +28,7 @@ public class Main {
 	{
 		puts("Starting...");
 
-		RACF.ConfigFile file = new RACF.ConfigFile(getPath("config.racf"));
+		ConfigFile file = new ConfigFile(getPath("config.racf"));
 
 		file.DisplayTokens();
 

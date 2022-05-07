@@ -1,0 +1,3 @@
+[submodule "RACF"]
+	path = RACF
+	url = https://github.com/Java-Visual-Novel-Engine-Project/RACF.git

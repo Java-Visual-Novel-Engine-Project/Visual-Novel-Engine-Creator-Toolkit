@@ -1,4 +1,4 @@
-package com.marcel.Utils;
+package com.marcel.Windows.Utils;
 
 public class Point {
 

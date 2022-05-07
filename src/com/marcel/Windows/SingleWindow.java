@@ -1,6 +1,5 @@
 package com.marcel.Windows;
 
-import com.marcel.Utils.Point;
 import com.marcel.Utils.WindowSize;
 import com.marcel.Windows.Surfaces.GenericProject;
 import com.marcel.Windows.Surfaces.TestingProject;

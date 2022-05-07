@@ -1,6 +1,6 @@
 package com.marcel.Windows;
 
-import com.marcel.Utils.Point;
+import com.marcel.Windows.Utils.Point;
 import com.marcel.Windows.Surfaces.GenericProject;
 
 public class MouseState {

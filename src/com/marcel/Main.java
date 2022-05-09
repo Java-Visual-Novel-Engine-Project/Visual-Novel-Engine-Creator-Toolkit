@@ -29,11 +29,11 @@ public class Main {
 	{
 		puts("Starting...");
 
-		ConfigFile file = new ConfigFile(getPath("config.racf"));
+		//ConfigFile file = new ConfigFile(getPath("config.racf"));
 
-		file.DisplayTokens();
+		//file.DisplayTokens();
 
-		puts("TESTING: " + file.GetConfigValueString("Settings.test"));
+		//puts("TESTING: " + file.GetConfigValueString("Settings.test"));
 
 
 		List<SingleWindow> windowList = new ArrayList<>();

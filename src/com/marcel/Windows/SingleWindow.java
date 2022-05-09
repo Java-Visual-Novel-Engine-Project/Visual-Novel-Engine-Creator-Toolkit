@@ -176,21 +176,21 @@ public class SingleWindow extends JFrame
         if (currentProject != null)
             currentProject.HandleKeyEvent(e);
 
-        if (e.getKeyCode() == KeyEvent.VK_4)
+/*        if (e.getKeyCode() == KeyEvent.VK_4)
             AddProject(new TestingProject(projects.size()));
 
         if (e.getKeyCode() == KeyEvent.VK_5)
             DrawFrame();
 
         if (e.getKeyCode() == KeyEvent.VK_6)
-            setTitle("G2D: " + getGraphics());
+            setTitle("G2D: " + getGraphics());*/
 
     }
 
     private void HandleMouseEvent(MouseEvent e)
     {
         manager.UpdateMousePosition();
-        System.out.println(mouse.pos.x + "," + mouse.pos.y);
+        //System.out.println(mouse.pos.x + "," + mouse.pos.y);
         //pointList.add(new Point(mouse.pos.x, mouse.pos.y));
     }
 
@@ -285,6 +285,11 @@ public class SingleWindow extends JFrame
             else if (mouse.newProject)
             {
                 AddProject(new TestingProject(projects.size()));
+            }
+            else
+            {
+                if (currentProject != null)
+                    currentProject.HandleMousePress(e);
             }
             UpdateTitle();
         }
